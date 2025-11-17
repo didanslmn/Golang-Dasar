@@ -36,6 +36,7 @@ func main() {
 	// contoh penggunaan fungsi variadic dengan argumen tambahan
 	sapa("Andi", "Selamat pagi!", "Semoga harimu menyenangkan.")
 	sapa("Budi")
+
 	// contoh penggunaan function as parameter
 	numbers := []int{1, 2, 3, 4, 5}
 	squared := proses(numbers, func(n int) int {
